@@ -1,124 +1,116 @@
+🏨 AtliQ Hospitality Revenue Intelligence
+🚀 Business Intelligence Case Study
 
-# AtliQ Grands – Hospitality Revenue Intelligence Dashboard
+AtliQ Grands, a 5-star hotel chain operating across India for 20+ years, was losing market share due to poor revenue visibility and ineffective pricing decisions.
 
-## Business Background
+This project implements a Power BI Revenue Intelligence Dashboard to transform historical booking data into strategic business insights.
 
-AtliQ Grands is a premium hotel chain operating multiple luxury and business-class properties across major Indian cities. With over two decades in the hospitality sector, the brand has built a strong reputation in the five-star segment.
+📊 Dashboard Preview
+🔹 Overall Analysis
+<p align="center"> <a href="images/overall-analysis.png"> <img src="images/overall-analysis.png" width="900"> </a> </p>
 
-Recently, the company has experienced a decline in revenue growth and market share due to:
+Focus Areas:
 
-- Aggressive pricing strategies from competitors
-- Inconsistent revenue management decisions
-- Limited data-driven strategic planning
+Revenue by City & Property
 
-To address these challenges, the Managing Director decided to adopt a Business Intelligence approach. Since there is no internal analytics team, an external data analyst was hired to transform historical booking and revenue data into actionable insights.
+Occupancy % & Cancellation %
 
----
+Category Performance
 
-## Objective
+Booking Platform Contribution
 
-Develop a dynamic and interactive Power BI dashboard that:
+KPI Summary Cards
 
-- Tracks core hospitality KPIs
-- Monitors revenue and occupancy performance
-- Identifies cancellation trends
-- Highlights city-level and property-level performance
-- Provides strategic recommendations for revenue improvement
+🔹 Monthly Analysis
+<p align="center"> <a href="images/monthly-analysis.png"> <img src="images/monthly-analysis.png" width="900"> </a> </p>
 
----
+Focus Areas:
 
-## Key Metrics Designed
+Month-over-Month Revenue
 
-The following measures were created:
+Occupancy & Rating Trend
 
-- **Total Revenue**
-- **Total Bookings**
-- **Total Successful Check-ins**
-- **Total Cancellations**
-- **Occupancy Rate (%)**
-- **Average Daily Rate (ADR)**
-- **Revenue Per Available Room (RevPAR)**
-- **Realisation Percentage**
-- **Cancellation Percentage**
-- **Average Customer Rating**
+Cancellation Pattern
 
-A dedicated measures table was created to organize all calculated metrics efficiently.
+Weekday vs Weekend Performance
 
----
+📈 Core KPIs Designed
 
-## Dashboard Views
+Total Revenue
 
-### 1. Overall Performance Dashboard
+Total Bookings
 
-This view provides a consolidated summary including:
+Successful Check-ins
 
-- Revenue distribution by city
-- Property-wise occupancy comparison
-- Cancellation rate trends
-- Booking platform contribution
-- Room category performance
+Occupancy %
 
-This dashboard enables management to evaluate overall business health at a glance.
+Cancellation %
 
----
+ADR (Average Daily Rate)
 
-### 2. Monthly Performance Analysis
+RevPAR
 
-The monthly view highlights:
+Realisation %
 
-- Month-over-month revenue trends
-- Seasonal occupancy variations
-- Cancellation fluctuation patterns
-- ADR changes over time
-- Booking trend comparison (weekdays vs weekends)
+Average Customer Rating
 
-This helps in identifying peak and low-demand periods.
+A dedicated Measures Table was created for scalable DAX management.
 
----
+🔎 Key Business Insights
 
-## Analytical Observations
+Mumbai generates the highest revenue (₹669M).
 
-- Mumbai contributes the highest overall revenue among all cities.
-- Delhi records the highest customer satisfaction rating.
-- AtliQ Blu maintains the strongest occupancy performance across properties.
-- AtliQ Exotica shows balanced performance in revenue and ratings.
-- Elite room category generates maximum bookings but also shows the highest cancellation rate.
-- Weekday occupancy is significantly higher compared to weekends in business-dominated cities.
+Delhi leads in rating and occupancy performance.
 
----
+AtliQ Blu records the highest occupancy rate (62%).
 
-## Cancellation Policy Insights
+AtliQ Exotica delivers balanced performance across revenue, rating & occupancy.
 
-Analysis of cancellation behavior revealed:
+Elite room category drives maximum bookings but also highest cancellations.
 
-- Most properties allow free cancellation up to a defined advance period.
-- Late cancellations result in penalties ranging between 60% to 90% of booking value.
-- A significant portion of cancellations occur close to the check-in date, impacting revenue realization.
+🧠 Technical Execution
+🔹 Data Modeling
 
----
+Star schema structure
 
-## Business Recommendations
+Fact & dimension separation
 
-Based on the analysis:
+Optimized relationships
 
-1. Implement dynamic pricing strategies during peak demand periods.
-2. Introduce stricter cancellation policies for elite room categories.
-3. Offer loyalty incentives to reduce last-minute cancellations.
-4. Increase marketing focus in lower-performing cities.
-5. Optimize room allocation based on seasonal demand trends.
+🔹 SQL Analysis
 
----
+Revenue aggregation
 
-## Key Learnings
+Occupancy & cancellation validation
 
-- Maintaining a consistent color theme improves dashboard readability.
-- Creating a separate measures table enhances model organization.
-- Data modeling plays a critical role in accurate KPI calculation.
-- Understanding cancellation behavior is essential for revenue optimization.
-- Business storytelling is as important as data visualization.
+Platform-level booking analysis
 
----
+🔹 Python EDA
 
-## Conclusion
+Cancellation behavior analysis
 
-The implementation of Business Intelligence solutions enables AtliQ Grands to shift from reactive decision-making to a proactive, data-driven strategy. With better revenue visibility and operational insights, the organization can regain its competitive position in the luxury hospitality market.
+Trend & seasonality detection
+
+Weekday vs Weekend comparison
+
+🛠 Tech Stack
+
+Power BI
+
+DAX
+
+SQL
+
+Python (Pandas, Matplotlib)
+
+💼 Business Impact
+
+This solution enables AtliQ Grands to:
+
+Improve pricing strategy
+
+Reduce revenue leakage
+
+Optimize occupancy
+
+Make data-driven executive decisions
